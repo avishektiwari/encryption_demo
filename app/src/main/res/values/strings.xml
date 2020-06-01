@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">PetMed</string>
+  <string name="pet_photo_content_description">Pet Photo</string>
+  <string name="password">Password</string>
+  <string name="confirm_password">Confirm Password</string>
+  <string name="login">Login</string>
+  <string name="signup">Signup</string>
+  <string name="loginInfo">You can login with your password to get access to the keystore and use the key to encrypt/decrypt the pet details. The session will be maintained,so the user have to login every time they open the app. </string>
+  <string name="signupIndo">The password you set here will be used as the password for your keystore. This will enable you to save and extract the encryption key. The password will be saved using SharedPreference and to make it secure, both the SharedPreference key and value will be encrypted.</string>
+  <string name="petInfo">The content of this page is encrypted. Only because you passed the correct password, key could be fetched and decryption could be done.Encryption is done by AES key.A function called Password-Based Key Derivation Function (PBKDF2) comes to the rescue. It takes a password and, by hashing it with random data many times over, it creates a key. The random data is called salt. This creates a strong and unique key, even if someone else uses the same password. </string>
+
+</resources>
